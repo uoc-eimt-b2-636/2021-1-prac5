@@ -1,0 +1,206 @@
+[
+    {
+        "id": "2477ba2d.e9d936",
+        "type": "tab",
+        "label": "Flow 2"
+    },
+    {
+        "id": "ccbf7bd1.702aa8",
+        "type": "tcp in",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "server": "server",
+        "host": "",
+        "port": "5001",
+        "datamode": "stream",
+        "datatype": "buffer",
+        "newline": "",
+        "topic": "",
+        "base64": false,
+        "x": 280,
+        "y": 200,
+        "wires": [
+            [
+                "ce0f6849.e72428"
+            ]
+        ]
+    },
+    {
+        "id": "ce0f6849.e72428",
+        "type": "debug",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 560,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b25389ec.0067c8",
+        "type": "tcp out",
+        "z": "2477ba2d.e9d936",
+        "host": "",
+        "port": "",
+        "beserver": "reply",
+        "base64": false,
+        "end": false,
+        "name": "",
+        "x": 530,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "cb10c39.7ce3a4",
+        "type": "inject",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "topic": "",
+        "payload": "g",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 290,
+        "y": 400,
+        "wires": [
+            [
+                "b25389ec.0067c8"
+            ]
+        ]
+    },
+    {
+        "id": "58421e05.87348",
+        "type": "inject",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "topic": "",
+        "payload": "r",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 290,
+        "y": 480,
+        "wires": [
+            [
+                "b25389ec.0067c8"
+            ]
+        ]
+    },
+    {
+        "id": "2128c9b3.139586",
+        "type": "inject",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "topic": "",
+        "payload": "R",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 290,
+        "y": 440,
+        "wires": [
+            [
+                "b25389ec.0067c8"
+            ]
+        ]
+    },
+    {
+        "id": "4e7d18fe.a99bd8",
+        "type": "inject",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "topic": "",
+        "payload": "G",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 290,
+        "y": 360,
+        "wires": [
+            [
+                "b25389ec.0067c8"
+            ]
+        ]
+    },
+    {
+        "id": "8eca7233.3921f",
+        "type": "inject",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "topic": "",
+        "payload": "B",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 290,
+        "y": 520,
+        "wires": [
+            [
+                "b25389ec.0067c8"
+            ]
+        ]
+    },
+    {
+        "id": "b4cea955.4271f8",
+        "type": "inject",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "topic": "",
+        "payload": "b",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 290,
+        "y": 560,
+        "wires": [
+            [
+                "b25389ec.0067c8"
+            ]
+        ]
+    },
+    {
+        "id": "b6bd7c6.818ca8",
+        "type": "inject",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "topic": "",
+        "payload": "z",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 290,
+        "y": 602,
+        "wires": [
+            [
+                "b25389ec.0067c8"
+            ]
+        ]
+    },
+    {
+        "id": "a67ed763.def198",
+        "type": "inject",
+        "z": "2477ba2d.e9d936",
+        "name": "",
+        "topic": "",
+        "payload": "e",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 290,
+        "y": 640,
+        "wires": [
+            [
+                "b25389ec.0067c8"
+            ]
+        ]
+    }
+]
